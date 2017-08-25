@@ -1,10 +1,12 @@
 <template>
   <div class="top-bar">
-      <el-menu theme="dark" :default-active="activeIndex" class="header-slider" mode="horizontal" @select="handleSelect" style="position: fixed;;width: 100%;">
-        <el-menu-item index="1" class="title">金融信息管理平台</el-menu-item>
-        <el-menu-item  class="admin" index="3"><el-tooltip class="item" content="注销" placement="bottom" effect="light"><el-button type="text">Admin</el-button>  </el-tooltip>
-        </el-menu-item>
-        <div>123</div>
+      <el-menu theme="dark" :default-active="activeIndex" class="header-slider" mode="horizontal" @select="handleSelect" style="position: fixed;;width: 100%;height: 80px">
+        <div style="margin-top: 10px">
+          <el-menu-item index="1" class="title">金融信息管理平台</el-menu-item>
+          <el-menu-item  class="admin" index="3"><el-tooltip class="item" content="注销" placement="bottom" effect="light"><el-button type="text">Admin</el-button>  </el-tooltip>
+          </el-menu-item>
+        </div>
+
       </el-menu>
     </div>
 </template>

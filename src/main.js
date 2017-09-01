@@ -8,6 +8,7 @@ import 'element-ui/lib/theme-default/index.css'
 
 Vue.use(ElementUI)
 Vue.config.productionTip = false
+window.eventBus = new Vue()
 
 import './assets/css/style.css'
 /* eslint-disable no-new */
